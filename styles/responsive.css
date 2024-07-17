@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+
+    /* navigation bar starts */
+
+    .nav-container ul{
+        display: none;
+    }
+    .hambagar{
+        display: block;
+    }
+
+    /* banner section starts here */
+
+    .small{
+        display: block;
+    }
+}

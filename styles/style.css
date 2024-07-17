@@ -1,0 +1,140 @@
+*{
+    margin: 0
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+}
+
+
+
+/* shared styles */
+.secondry-text-color{
+    color: rgb(175, 171, 165);
+}
+
+/* header section starts */
+/* navigation bar starts */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.nav-title{
+    color: #E6533C;
+    font-weight: 900;
+    font-size: 36px;
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    border-radius: 39px;
+    border: 1px solid rgb(50, 50, 50);
+    padding: 4px;
+    
+}
+.nav-color{
+    padding: 8px 20px;
+    background-color: #E6533C;
+    border-radius: 46px;
+}
+.about{
+    margin: 0 20px;
+}
+.nav-container ul li {
+    list-style: none;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+.hambagar{
+    display: none;
+}
+/* navigation bar ends */
+.header{
+    margin-top: 50px;
+}
+/* banner section starts here */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text-container h2{
+    font-size: 78px;
+    font-weight: 900;
+}
+.banner-text-container p{
+    margin: 28px 0;
+}
+.small{
+    display: none;
+}
+
+.banner-button{
+    padding: 16px 45px;
+    border-radius: 42px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+
+}
+.join{
+    background-color: #E6533C;
+}
+.download{
+    background-color: black;
+    border: 1px solid white;
+}
+
+/* banner image container section starts here */
+
+.img-details{
+    position: absolute;
+}
+.free{
+    background-color: rgba(119, 119, 119, 0.5);
+    border-radius: 12px;
+    padding: 17px 23px;
+    width: 140px;
+    
+    position: absolute;
+    left: 214px;
+    top: -465px;
+    
+}
+.free h3{
+    font-size: 40px;
+}
+
+.free p{
+    font-size: 13px;
+}
+.video{
+    padding: 20px 23px;
+    background-color: rgb(119, 119, 119, 0.301);
+    border-radius: 12px;
+}
+/* banner section ends here */
+/* header section ends */
+
