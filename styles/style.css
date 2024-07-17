@@ -113,7 +113,7 @@ body{
     position: absolute;
 }
 .free{
-    background-color: rgba(119, 119, 119, 0.5);
+    background-color: rgba(119, 119, 119, 0.6);
     border-radius: 12px;
     padding: 17px 23px;
     width: 140px;
@@ -131,9 +131,26 @@ body{
     font-size: 13px;
 }
 .video{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 23px;
-    background-color: rgb(119, 119, 119, 0.301);
+    background-color: rgb(119, 119, 119, 0.5);
     border-radius: 12px;
+    position: absolute;
+    left: -98px;
+    top: -155px;
+}
+.video h1{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.orange-dot{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
 }
 /* banner section ends here */
 /* header section ends */

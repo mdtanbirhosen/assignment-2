@@ -2,16 +2,40 @@
 
     /* navigation bar starts */
 
-    .nav-container ul{
+    .nav-container ul {
         display: none;
     }
-    .hambagar{
+
+    .hambagar {
         display: block;
     }
 
     /* banner section starts here */
 
-    .small{
+    .small {
         display: block;
     }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-text-container h2 {
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .join-button{
+        display: none;
+    }
+
+    .free {
+        left: 214px;
+        top: -500px;
+    }
+
+    .video {
+        top: -230px;
+        left: -50px;
+    }
+    /* banner section ends here */
 }
