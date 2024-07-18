@@ -1,20 +1,19 @@
-*{
-    margin: 0
+* {
+    margin: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
 
 
 .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
-  }
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
 
-body{
+
+body {
     width: 90%;
     margin: 0 auto;
     color: white;
@@ -24,74 +23,85 @@ body{
 
 
 /* shared styles */
-.secondry-text-color{
+.secondry-text-color {
     color: rgb(175, 171, 165);
 }
 
 /* header section starts */
 /* navigation bar starts */
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 32px;
 }
 
-.nav-title{
+.nav-title {
     color: #E6533C;
     font-weight: 900;
     font-size: 36px;
 }
-.nav-container ul{
+
+.nav-container ul {
     display: flex;
     align-items: center;
     gap: 47px;
     border-radius: 39px;
     border: 1px solid rgb(50, 50, 50);
     padding: 4px;
-    
+
 }
-.nav-color{
+
+.nav-color {
     padding: 8px 20px;
     background-color: #E6533C;
     border-radius: 46px;
 }
-.about{
+
+.about {
     margin: 0 20px;
 }
+
 .nav-container ul li {
     list-style: none;
 }
-.nav-container ul li a{
+
+.nav-container ul li a {
     text-decoration: none;
     color: white;
 }
-.hambagar{
+
+.hambagar {
     display: none;
 }
+
 /* navigation bar ends */
-.header{
+.header {
     margin-top: 50px;
 }
+
 /* banner section starts here */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.banner-text-container h2{
+
+.banner-text-container h2 {
     font-size: 78px;
     font-weight: 900;
 }
-.banner-text-container p{
+
+.banner-text-container p {
     margin: 28px 0;
 }
-.small{
+
+.small {
     display: none;
 }
 
-.banner-button{
+.banner-button {
     padding: 16px 45px;
     border-radius: 42px;
     font-size: 18px;
@@ -99,38 +109,43 @@ body{
     font-weight: 600;
 
 }
-.join{
+
+.join {
     background-color: #E6533C;
 }
-.download{
+
+.download {
     background-color: black;
     border: 1px solid white;
 }
 
 /* banner image container section starts here */
 
-.img-details{
+.img-details {
     position: absolute;
 }
-.free{
+
+.free {
     background-color: rgba(119, 119, 119, 0.6);
     border-radius: 12px;
     padding: 17px 23px;
     width: 140px;
-    
+
     position: absolute;
     left: 214px;
     top: -465px;
-    
+
 }
-.free h3{
+
+.free h3 {
     font-size: 40px;
 }
 
-.free p{
+.free p {
     font-size: 13px;
 }
-.video{
+
+.video {
     display: flex;
     width: 150px;
     justify-content: space-between;
@@ -142,16 +157,131 @@ body{
     left: -98px;
     top: -155px;
 }
-.video h1{
+
+.video h1 {
     font-size: 24px;
     margin-bottom: 8px;
 }
-.orange-dot{
+
+.orange-dot {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: #E6533C;
 }
+
 /* banner section ends here */
 /* header section ends */
+/* main section starts here */
+/* habit section starts here */
 
+
+.habits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+}
+
+.habit-text-container {
+    width: 671px;
+}
+
+.habit-text-container h1 {
+    font-size: 48px;
+}
+
+/* habit image container starts */
+
+.habit-img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+
+}
+.habit-img-card {
+    width: 250px;
+}
+
+.habit-img-card img {
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+/* run section starts here  */
+.runner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 18px;
+    background-color: #222222;
+    
+}
+/* run tex section starts here */
+.runner-text-container{
+    width: 450px;
+    margin: 40px 0px 40px 50px;
+}
+.runner-text-container h2{
+    font-size: 48px;
+}
+.runner-text-container p{
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 34px;
+
+}
+.runner-text-container button{
+    font-size: 18px;
+    color: white;
+    padding: 16px 71px;
+    border-radius: 42px;
+    background-color: #E6533C;
+}
+/* run text section ends here */
+/* runner image container starts here */
+.runner-img-container{
+    margin: 30px;
+    width: 370px;
+    height: 315px;
+    background-repeat: no-repeat;
+    background-image: url('../images/run.jpg');
+    background-size: 1100px 766px;
+    background-position: -530px -143px;
+    border-radius: 18px;
+
+}
+
+/* run section ends here */
+
+/* challenge part- calculator starts here */
+/* calculator text section starts her */
+.calculator-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.calculator-text h1{
+    font-size: 48px;
+}
+.calculator-text p{
+    font-size: 14px;
+}
+
+/* calculator text section ends her */
+/* calculator container section starts */
+.calculator-container{
+    position: absolute;
+    left: -10%;
+    height: 490px;
+    width: 110%;
+    margin: 0 auto;
+    background-color: #222222;
+}

@@ -38,4 +38,19 @@
         left: -50px;
     }
     /* banner section ends here */
+
+    .habit-text-container{
+        width: 318px;
+    }
+    .habit-text-container h1{
+        font-size: 32px;
+    }
+    .habit-img-container{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    
+    
 }
