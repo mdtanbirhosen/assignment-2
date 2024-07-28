@@ -197,7 +197,15 @@
     /* teams info section ends here */
     /* footer section starts here */
     
-    
-    /* footer section starts here */
+    .footer-body{
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    .footer-information{
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 0px;
+    }
+    /* footer section ends here */
 
 }
