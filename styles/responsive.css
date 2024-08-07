@@ -206,6 +206,9 @@
         flex-direction: column;
         gap: 0px;
     }
+    .footer-text{
+        display: block;
+    }
     /* footer section ends here */
 
 }

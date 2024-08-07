@@ -699,6 +699,9 @@ td {
 .footer-head p{
     font-size: 14px;
 }
+.footer-text{
+    display: none;
+}
 .footer-info h3, .footer-nav h3{
     font-size: 35px;
     margin-bottom: 40px;
