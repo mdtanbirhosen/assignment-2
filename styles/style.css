@@ -2,7 +2,13 @@
 
 /* used in banner shape text */
 .miama-font {
+    position: absolute;
     font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    top: 50px;
+    
+    
 }
 
 
@@ -108,6 +114,7 @@ main {
 .banner-text-container h2 {
     font-size: 78px;
     font-weight: 900;
+    position: relative;
 }
 
 .banner-text-container p {
