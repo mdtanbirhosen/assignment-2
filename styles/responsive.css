@@ -1,6 +1,10 @@
 @media screen and (max-width: 576px) {
 
     /* navigation bar starts */
+    .miama-font{
+        font-size: 70px;
+        top: 19px;
+    }
 
     .nav-container ul {
         display: none;
@@ -18,6 +22,9 @@
 
     .banner {
         flex-direction: column;
+    }
+    .banner-button{
+        padding: 16px 40px;
     }
 
     .banner-text-container h2 {
