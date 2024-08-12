@@ -29,8 +29,12 @@
     }
 
     .free {
-        left: 214px;
-        top: -500px;
+        left: 190px;
+        top: -510px;
+        padding-right: 0px;
+    }
+    .free h3 {
+        font-size: 30px;
     }
 
     .video {
@@ -209,6 +213,7 @@
     .footer-text{
         display: block;
     }
+
     /* footer section ends here */
 
 }

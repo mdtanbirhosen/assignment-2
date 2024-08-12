@@ -1,7 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* used in banner shape text */
+.miama-font {
+    font-family: 'Miama', sans-serif;
+}
+
+
+/* universal */
 * {
     margin: 0;
 }
-
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -22,7 +30,6 @@ main {
     margin: 0 auto;
 
 }
-
 
 
 /* shared styles */
@@ -188,6 +195,7 @@ main {
 
 
 .habits {
+    margin: 0 auto;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -465,18 +473,13 @@ main {
 /* calculator text section ends her */
 /* calculator container section starts */
 .calculator-container {
-
-
     max-width: 100%;
-
     background-color: #222222;
-
 }
 
 .all-container {
     margin: 0 auto;
     max-width: 90%;
-
     display: flex;
     justify-content: space-between;
 }
@@ -494,21 +497,15 @@ main {
 
 .chart tr {
     text-align: left;
-
-
 }
 
 .chart td {
     color: rgb(175, 171, 165);
-
-
-
 }
 
 .chart th,
 .chart td {
     padding: 10px 20px;
-
 }
 
 .chart table,
@@ -523,7 +520,6 @@ td {
 .input-title {
     font-size: 30px;
     margin-bottom: 15px;
-
 }
 
 .bmi-calculate p {
@@ -544,7 +540,6 @@ td {
     border: none;
     border-radius: 8px;
     padding: 15px;
-
 }
 
 .calculate-input input {
@@ -661,12 +656,6 @@ td {
 /* teams info section ends here */
 
 /* footer section starts here */
-
-
-
-
-
-
 
 .footer-secondry-color {
     color: rgb(140, 140, 140);
